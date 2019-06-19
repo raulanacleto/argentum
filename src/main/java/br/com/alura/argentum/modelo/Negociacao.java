@@ -2,11 +2,11 @@ package main.java.br.com.alura.argentum.modelo;
 
 import java.time.LocalDateTime;
 
-public class Negociacao {
+public final class Negociacao {
 
-    private double preco;
-    private int quantidade;
-    private LocalDateTime data;
+    private final double preco;
+    private final int quantidade;
+    private final LocalDateTime data;
 
     public Negociacao(double preco, int quantidade, LocalDateTime data) {
         this.preco = preco;
